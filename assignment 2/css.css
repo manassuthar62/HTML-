@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1b1a1a;
+}
+#image{
+    height: 15px;
+    width: 40px;
+    margin-top: 13px;
+}
+.suthar{
+    display: flex;
+}
+
+.top-header {
+    background-color: white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+
+.navbar {
+    background: linear-gradient(to bottom, #f2f2f2 0%, #dcdcdc 50%, #b0b0b0 100%);
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #888;
+}
+
+.nav-list {
+     list-style: none;
+    display: flex;
+    padding: 0 40px; 
+}
+
+.nav-list li {
+     position: relative;
+    justify-content: space-evenly; 
+}
+
+
+.nav-list li a {
+     display: block;
+    text-decoration: none;
+    color: #555;
+    font-size: 20px;
+    font-weight: bold; 
+    padding: 12px 25px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #fff;
+     border-right: 1px solid #999;
+    border-left: 1px solid rgba(255,255,255,0.5);
+     justify-content: space-evenly;
+}
+
+
+.nav-list li:first-child a {
+    border-left: none;
+    padding-left: 0;
+}
+
+
+.nav-list li a:hover {
+    color: #000;
+    background: rgba(255,255,255,0.3);
+}
+.img{
+    height: 500px;
+    width: 700px;
+    margin: 15px;
+}
+.MANAS{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.leftsite{
+    height: 500px;
+    width: 900px;
+    background-color: #8f8a8a;
+    margin-top: 15px;
+    font-size: 30px;
+}
+.yellow{
+    background-color: #ffcc00;
+    font-size: 30PX;
+    align-items: center;
+}
+p{
+    padding: 10px;
+}
+.pcc{
+    color: #ffcc00;
+    
+}
+.niche{
+    height: 100px;
+    width: 300px;
+    background-color: #555;
+}
+.i{
+    height: 200px;
+}
+.ii{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.one{
+    height: 300px;
+    width: 380px;
+}
+.one h4{
+    background-color: #ffcc00;
+    height: 30px;
+  text-align: left;
+  padding-top: 5px;
+    
+}
+.three{
+    background-color: #888;
+}
+button{
+    background-color: #ffcc00;
+    font-size: 20px;
+   margin-left: 290px;
+   text-decoration: none;
+}
+.three button a{
+    text-decoration: none;
+    color: #000;
+}
+.ma{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
